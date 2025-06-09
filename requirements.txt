@@ -5,7 +5,7 @@ scikit-learn==1.6.1
 matplotlib==3.10.3
 openpyxl==3.1.5
 numpy==1.26.4
-tensorflow==2.19.0
+tensorflow
 gensim==4.3.3
 openai==1.83.0
 python-dotenv==1.0.1
