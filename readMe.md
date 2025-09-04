@@ -1,4 +1,5 @@
-🎥 [시연영상 보러가기](./시연영상.mp4)
+[![Demo Video](https://img.shields.io/badge/▶️-시연영상-blue)](./시연영상.mp4)
+
 
 
 📌 AI 기반 부동산 리포트 자동 생성기
