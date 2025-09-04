@@ -1,4 +1,6 @@
-[![Demo Video](https://img.shields.io/badge/▶️-시연영상-blue)](./시연영상.mp4)
+## 🎥 시연 영상 (미리보기 재생 가능)
+[![영상 보기](https://img.shields.io/badge/▶️ 시연영상 보기-blue)](https://user-images.githubusercontent.com/12345678/demo.mp4)
+
 
 
 
