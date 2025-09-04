@@ -1,11 +1,7 @@
-## 🎥 시연 영상 (미리보기 재생 가능)
-[![영상 보기](https://img.shields.io/badge/▶️ 시연영상 보기-blue)](https://user-images.githubusercontent.com/12345678/demo.mp4)
-
 
 
 
 📌 AI 기반 부동산 리포트 자동 생성기
-
 실시간 매물 검색부터 이상 탐지, AI 가격 예측, 텍스트 분석, GPT 요약까지 한 번에 제공하는 스마트 부동산 분석 시스템입니다.
 
 
