@@ -1,3 +1,12 @@
+# 📦 ZipPick_ver2
+
+## 📄 프로젝트 자료
+- [프로젝트 소개 PDF](./Read.me%20이미지.pdf)
+
+## 🎬 시연 영상
+- [시연영상 다운로드](./시연영상.mp4)
+- (권장) [GitHub Issue에 업로드한 시연영상(미리보기)](https://user-images.githubusercontent.com/123456789/demo.mp4)
+
 
 ---
 
