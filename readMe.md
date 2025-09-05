@@ -1,11 +1,4 @@
-# 📦 ZipPick_ver2
 
-## 📄 프로젝트 자료
-- [프로젝트 소개 PDF](./Read.me%20이미지.pdf)
-
-## 🎬 시연 영상
-- [시연영상 다운로드](./시연영상.mp4)
-- (권장) [GitHub Issue에 업로드한 시연영상(미리보기)](https://user-images.githubusercontent.com/123456789/demo.mp4)
 
 
 ---
@@ -60,6 +53,13 @@
 11. **텍스트 숫자 변환 + 길이 정규화 (Tokenizer + Padding)**
 12. **상업적 감성 분석 (LSTM + 우선순위 점수)**
 13. **최종 투자 매물 추천 + GPT 리포트 생성**
+
+## 📄 프로젝트 자료
+- [프로젝트 소개 PDF](./Read.me%20이미지.pdf)
+
+## 🎬 시연 영상
+- [시연영상 다운로드](./시연영상.mp4)
+- (권장) [GitHub Issue에 업로드한 시연영상(미리보기)](https://user-images.githubusercontent.com/123456789/demo.mp4)
 
 ---
 
