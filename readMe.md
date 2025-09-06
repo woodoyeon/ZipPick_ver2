@@ -11,7 +11,25 @@
 
 ## 🎥 시연 영상 & 자료
 - 📄 [프로젝트 소개 PDF](./ZipPick_ver2_PDF.pdf)  
-- 🎬 [시연 영상 (mp4)](./시연영상.mp4)  
+- 🎬 [시연 영상 (mp4)](./시연영상.mp4)
+
+---
+
+<p align="center">
+  <video
+    width="760"
+    controls
+    autoplay
+    muted
+    loop
+    playsinline
+    poster="./assets/demo_poster.jpg">
+    <source src="./assets/demo.mp4" type="video/mp4" />
+    브라우저가 video 태그를 지원하지 않습니다.
+  </video>
+</p>
+
+---
 
 ---
 ## ✨ 무엇을 해결하나요?
