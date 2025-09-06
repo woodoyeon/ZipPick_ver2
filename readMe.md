@@ -19,31 +19,33 @@
 복잡한 부동산 데이터를 자동으로 모으고 정리하여, **이상 매물 탐지·가격 예측·텍스트 분석**을 거쳐  
 최종적으로 **투자 인사이트 리포트**까지 자동 생성합니다.
 
+**테크 리포트**
 <img src="./images/1.png" width="720" />
-<sub>프로젝트 개요</sub>
 
+**프로젝트 목차**
 <img src="./images/2.png" width="720" />
-<sub>핵심 가치 제안</sub>
 
+**프로젝트 개요**
 <img src="./images/3.png" width="720" />
-<sub>기능 목차</sub>
+
 
 ---
 
 ## 🧱 전체 구조(Architecture)
 수집 → 정제 → 분석(ML/LLM) → 대시보드(UI)까지 한 흐름으로 설계했습니다.
 
+**핵심 기능 설명**
 <img src="./images/4.png" width="720" />
-<sub>엔드투엔드 데이터 파이프라인</sub>
 
+**실시간 매물 검색**
 <img src="./images/5.png" width="720" />
-<sub>주요 모듈 연결 구조</sub>
 
+**이상 매물 리스트 / AI가 예측한 적정 가격**
 <img src="./images/6.png" width="720" />
-<sub>핵심 화면/기능 맵</sub>
 
+**실시간 매물 검색**
 <img src="./images/7.png" width="720" />
-<sub>대시보드 주요 플로우</sub>
+
 
 ---
 
