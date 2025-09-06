@@ -15,35 +15,96 @@
 
 ---
 
-## 📊 프로젝트 주요 화면 (총 17장)
+## ✨ 무엇을 해결하나요?
+복잡한 부동산 데이터를 자동으로 모으고 정리하여, **이상 매물 탐지·가격 예측·텍스트 분석**을 거쳐  
+최종적으로 **투자 인사이트 리포트**까지 자동 생성합니다.
 
-### 1. 프로젝트 개요 & 목차
-<img src="./images/1.png" width="700"/>
-<img src="./images/2.png" width="700"/>
-<img src="./images/3.png" width="700"/>
+<img src="./images/1.png" width="720" />
+<sub>프로젝트 개요</sub>
 
-### 2. 전체 구조 & 핵심 기능
-<img src="./images/4.png" width="700"/>
-<img src="./images/5.png" width="700"/>
-<img src="./images/6.png" width="700"/>
-<img src="./images/7.png" width="700"/>
+<img src="./images/2.png" width="720" />
+<sub>핵심 가치 제안</sub>
 
-### 3. 주요 실행 화면
-<img src="./images/8.png" width="700"/>
-<img src="./images/9.png" width="700"/>
-<img src="./images/10.png" width="700"/>
-
-### 4. 추가 실행 화면 (7장)
-<img src="./images/11.png" width="700"/>
-<img src="./images/12.png" width="700"/>
-<img src="./images/13.png" width="700"/>
-<img src="./images/14.png" width="700"/>
-<img src="./images/15.png" width="700"/>
-<img src="./images/16.png" width="700"/>
-<img src="./images/17.png" width="700"/>
+<img src="./images/3.png" width="720" />
+<sub>기능 목차</sub>
 
 ---
 
+## 🧱 전체 구조(Architecture)
+수집 → 정제 → 분석(ML/LLM) → 대시보드(UI)까지 한 흐름으로 설계했습니다.
+
+<img src="./images/4.png" width="720" />
+<sub>엔드투엔드 데이터 파이프라인</sub>
+
+<img src="./images/5.png" width="720" />
+<sub>주요 모듈 연결 구조</sub>
+
+<img src="./images/6.png" width="720" />
+<sub>핵심 화면/기능 맵</sub>
+
+<img src="./images/7.png" width="720" />
+<sub>대시보드 주요 플로우</sub>
+
+---
+
+## 🧩 주요 기능
+
+### 1) 데이터 수집 & 관리
+지역/단지 기준으로 매물을 수집하고, 정리된 결과를 **엑셀(.xlsx)** 로 다운로드할 수 있습니다.
+
+<img src="./images/8.png" width="720" />
+<sub>검색 조건 선택 및 조회</sub>
+
+---
+
+### 2) AI 기반 분석
+- **이상치 탐지(평단가 기준 Isolation Forest)**
+- **가격 예측(면적·가격 → MLP 회귀)**
+- **텍스트 분석(BoW/TF-IDF, 자동 라벨링, 유사 매물 추천, Word2Vec)**
+
+<img src="./images/9.png" width="720" />
+<sub>이상 매물 탐지 결과</sub>
+
+<img src="./images/10.png" width="720" />
+<sub>가격 예측 및 비교</sub>
+
+---
+
+### 3) 투자 가치 분석 & 리포트 자동화
+- **LSTM 감성 분석**으로 저평가/고평가 및 투자 추천 점수 산출  
+- **OpenAI GPT**로 투자 리포트 자동 생성
+
+<img src="./images/11.png" width="720" />
+<sub>텍스트 분석/태깅, 유사 매물 추천</sub>
+
+<img src="./images/12.png" width="720" />
+<sub>Word2Vec 기반 유사도 탐색</sub>
+
+<img src="./images/13.png" width="720" />
+<sub>LSTM 감성 분석 및 투자 점수</sub>
+
+<img src="./images/14.png" width="720" />
+<sub>GPT 기반 투자 리포트 자동 생성</sub>
+
+---
+
+## 🖥️ 실제 사용 화면(Flow)
+
+아래는 사용자 관점에서의 순차 플로우입니다.
+
+1. **조건 설정 → 매물 조회**
+   <br/><img src="./images/15.png" width="720" />
+   <sub>조회 조건 입력</sub>
+
+2. **데이터 업로드/출력 → 이상치 확인**
+   <br/><img src="./images/16.png" width="720" />
+   <sub>데이터 업로드 및 결과 출력</sub>
+
+3. **가격 예측 → 투자 리포트 생성**
+   <br/><img src="./images/17.png" width="720" />
+   <sub>가격 예측 비교 및 리포트 생성</sub>
+
+---
 ## ✨ 핵심 가치 제안 (Why ZipPick?)
 
 * **매물 데이터 자동 수집 & 정리** → 중개사의 수작업 감소
