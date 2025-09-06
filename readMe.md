@@ -22,14 +22,12 @@
     autoplay
     muted
     loop
-    playsinline
-    poster="./assets/demo_poster.jpg">
+    playsinline>
     <source src="./assets/demo.mp4" type="video/mp4" />
     브라우저가 video 태그를 지원하지 않습니다.
   </video>
 </p>
 
----
 
 ---
 ## ✨ 무엇을 해결하나요?
